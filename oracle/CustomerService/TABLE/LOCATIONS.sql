@@ -6,7 +6,9 @@ CREATE TABLE "LOCATIONS"
 	"STATE_PROVINCE" VARCHAR2(25), 
 	"COUNTRY_ID" CHAR(2), 
 	"REGION_ID" NUMBER, 
-	"ELEVATION" NUMBER
+	"ELEVATION" NUMBER, 
+	"METRO_AREA" VARCHAR2(40), 
+	"METRO_POP" NUMBER
    ) ;
    COMMENT ON COLUMN "LOCATIONS"."LOCATION_ID" IS 'Primary key of locations table';
    COMMENT ON COLUMN "LOCATIONS"."STREET_ADDRESS" IS 'Street address of an office, warehouse, or production site of a company.
