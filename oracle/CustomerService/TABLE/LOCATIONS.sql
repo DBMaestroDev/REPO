@@ -8,7 +8,8 @@ CREATE TABLE "LOCATIONS"
 	"REGION_ID" NUMBER, 
 	"ELEVATION" NUMBER, 
 	"METRO_AREA" VARCHAR2(40), 
-	"METRO_POP" NUMBER
+	"METRO_POP" NUMBER, 
+	"REGION" VARCHAR2(40)
    ) ;
    COMMENT ON COLUMN "LOCATIONS"."LOCATION_ID" IS 'Primary key of locations table';
    COMMENT ON COLUMN "LOCATIONS"."STREET_ADDRESS" IS 'Street address of an office, warehouse, or production site of a company.
